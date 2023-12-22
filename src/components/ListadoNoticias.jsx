@@ -2,7 +2,7 @@ import { Grid, Typography } from "@mui/material";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 import useNoticias from "../hooks/useNoticias";
-import Noticia from "../components/noticia";
+import Noticia from "../components/Noticia";
 
 const ListadoNoticias = () => {
   const { noticias, totalNoticias, handleChangePagina, pagina } = useNoticias();
